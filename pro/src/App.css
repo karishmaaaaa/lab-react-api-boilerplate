@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(239, 178, 188);
+}
+.books{
+  background-color: white;
+  padding-bottom:20px ;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+p{
+  padding: 0px 10px;
+  text-align: justify;
+}
+img{
+  margin-right:20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+h1 ~ div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+}
